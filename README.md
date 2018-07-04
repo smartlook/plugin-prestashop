@@ -1,0 +1,1 @@
+# smartlook-plugin-prestashop-1.7
