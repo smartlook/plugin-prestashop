@@ -1,0 +1,193 @@
+/**
+ * Smartlook integration module.
+ * 
+ * @package   Smartlook
+ * @author    Smartlook <vladimir@smartsupp.com>
+ * @link      http://www.smartsupp.com
+ * @copyright 2015 Smartsupp.com
+ * @license   GPL-2.0+
+ *
+ * Plugin Name:       Smartlook
+ * Plugin URI:        http://www.getsmartlook.com
+ * Description:       Adds Smartlook code to PrestaShop.
+ * Version:           1.0.0
+ * Author:            Smartsupp
+ * Author URI:        http://www.smartsupp.com
+ * Text Domain:       smartlook
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ */
+
+#content .panel {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+#content .panel p {
+    margin-bottom:2em;
+}
+
+#content .panel p.none {
+    margin-bottom:0;
+}
+
+#content .panel p.one {
+    margin-bottom:0.6em;
+}
+
+#content .panel a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#content .panel .customers a {
+    cursor: default;
+    text-decoration: none;
+}
+
+div.smartlook_landing_page {
+    display: none;
+}
+
+#configuration_form.smartlook {
+    display: none;
+}
+
+#smartlook_landing_page {
+    display: none;
+}
+
+#smartlook_landing_page .intro {
+    background: url("../img/guy.png") no-repeat scroll right bottom / 30% auto;
+}
+
+#smartlook_landing_page .advantages p.heading {
+    color: #00aff0;
+    font-size: 1.2em;
+}
+
+#smartlook_landing_page .advantages p.column-60 {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#smartlook_landing_page .btn.btn-primary {
+    border-color: #5bb799;
+    background-color: #5bb799;
+    text-transform: none;
+}
+
+#smartlook_landing_page p.title {
+    font-size: 12pt;
+    font-family: "Open Sans";
+    margin-bottom: 1.7em;
+}
+
+#smartlook_landing_page p.title strong {
+    font-size: 22pt;
+    font-weight: normal;
+}
+
+#smartlook_landing_page strong.heading {
+    font-size: 15pt;
+    font-weight: normal;
+    font-family: "Open Sans";
+}
+
+#smartlook_landing_page .dashboard {
+    width: 100%;
+}
+
+#smartlook_landing_page .customers img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#smartlook_landing_page #SMARTLOOK_DPA_LABEL.invalid, #smartlook_landing_page #SMARTLOOK_DPA_LABEL.invalid a {
+    color: red;
+}
+
+#smartlook_configuration, #smartlook_choose_configuration {
+    display: none;
+}
+
+#smartlook_configuration p.email, #smartlook_choose_configuration p.email {
+    margin-top: 10px;
+}
+
+#smartlook_configuration p.status-information, #smartlook_choose_configuration p.status-information {
+    margin-top: 10px;
+}
+
+#smartlook_configuration .btn.btn-primary, #smartlook_choose_configuration .btn.btn-primary {
+    border-color: #5bb799;
+    background-color: #5bb799;
+    text-transform: none;
+}
+
+#smartlook_choose_configuration .customers img, #smartlook_configuration .customers img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#smartlook_choose_configuration strong.heading, #smartlook_configuration strong.heading {
+    font-family: "Open Sans";
+    font-size: 15pt;
+    font-weight: normal;
+}
+
+#smartlook_create_account {
+    display: none;
+}
+
+#smartlook_create_account .btn.btn-primary {
+    text-transform: none;
+}
+
+#smartlook_create_account strong.heading {
+    font-size: 15pt;
+    font-weight: normal;
+    font-family: "Open Sans";
+}
+
+#smartlook_create_account .input-group {
+    margin: auto;
+}
+
+#smartlook_create_account .input-group-addon {
+    width: 90px;
+}
+
+#smartlook_create_account .customers img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#smartlook_connect_account {
+    display: none;
+}
+
+#smartlook_connect_account .btn.btn-primary {
+    border-color: #5bb799;
+    background-color: #5bb799;
+    text-transform: none;
+}
+
+#smartlook_connect_account strong.heading {
+    font-size: 15pt;
+    font-weight: normal;
+    font-family: "Open Sans";
+}
+
+#smartlook_connect_account .input-group {
+    margin: auto;
+}
+
+#smartlook_connect_account .input-group-addon {
+    width: 90px;
+}
+
+#smartlook_connect_account .customers img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
