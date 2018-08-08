@@ -43,7 +43,7 @@ class AdminSmartlookAjaxController extends ModuleAdminController
                 if (array_key_exists($language, $this->languageMap)) {
                     $language = $this->languageMap[$language];
                 }
-                $result = $api->signUp(array('authKey' => $this->authKey, 'email' => Tools::getValue('email'), 'password' => Tools::getValue('password'), 'lang' => $language, 'consentTerms.consentTerms' => 1));
+                $result = $api->signUp(array('authKey' => $this->authKey, 'email' => Tools::getValue('email'), 'password' => Tools::getValue('password'), 'lang' => $language, 'consentTerms' => 1));
                 if ($result['ok']) {
                     $api->authenticate($result['account']['apiKey']);
                     $project = $api->projectsCreate(array('name' => Configuration::get('PS_SHOP_NAME')));
