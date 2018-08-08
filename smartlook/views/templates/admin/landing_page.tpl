@@ -70,7 +70,7 @@
 					<br/>
 					<div>
 					    <input id="SMARTLOOK_DPA" type="checkbox" value="" name="SMARTLOOK_DPA">
-					    <span id="SMARTLOOK_DPA_LABEL" for="SMARTLOOK_DPA">{l s='I have read and agree with' mod='smartsupp'} <a href='www.smartlook.com/terms' target='_blank'>{l s='Terms' mod='smartlook'}</a> {l s=' ' mod='smartlook'}</span>
+					    <span id="SMARTLOOK_DPA_LABEL" for="SMARTLOOK_DPA">{l s='I have read and agree with' mod='smartsupp'} <a href="https://www.smartlook.com/terms" target="_blank">{l s='Terms' mod='smartlook'}</a> {l s=' ' mod='smartlook'}</span>
 					</div>                                        
 					<br/>
                                 </p>
