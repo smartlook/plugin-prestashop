@@ -1,8 +1,8 @@
-# Smartlook plugin - PrestaShop 1.7
+# Smartlook plugin - PrestaShop 1.6
 
 ## Compatibility
 
-Versions: 1.7.0.0 - 1.7.x.x
+Versions: 1.6.0.4 - 1.7.x.x
 
 ## Copyright
 

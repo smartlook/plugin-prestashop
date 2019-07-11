@@ -57,10 +57,6 @@ div.smartlook_landing_page {
     display: none;
 }
 
-#smartlook_landing_page .intro {
-    background: url("../img/guy.png") no-repeat scroll right bottom / 30% auto;
-}
-
 #smartlook_landing_page .advantages p.heading {
     color: #00aff0;
     font-size: 1.2em;

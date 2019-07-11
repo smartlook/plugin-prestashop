@@ -54,7 +54,7 @@
         </div>
         <div class="row text-center">
                 <p>
-                        <strong class="heading">{l s='170000+ happy customers, including:' mod='smartlook'}</strong>
+                        <strong class="heading">{l s='250 000 happy customers, including:' mod='smartlook'}</strong>
                 </p>
                 <div class="customers">
                         <a>
