@@ -1,4 +1,4 @@
-# Smartlook plugin - PrestaShop 1.6
+# Smartlook plugin - PrestaShop 1.6+
 
 ## Compatibility
 
