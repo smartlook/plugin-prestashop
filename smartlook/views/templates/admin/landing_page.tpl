@@ -10,7 +10,7 @@
  * Plugin Name:       Smartlook
  * Plugin URI:        http://www.getsmartlook.com
  * Description:       Adds Smartlook code to PrestaShop.
- * Version:           1.0.0
+ * Version:           2.1.0
  * Author:            Smartsupp
  * Author URI:        http://www.smartsupp.com
  * Text Domain:       smartlook
@@ -90,7 +90,7 @@
         <br/>
         <div class="row text-center">
                 <p>
-                        <strong class="heading">{l s='170000+ happy customers, including:' mod='smartlook'}</strong>
+                        <strong class="heading">{l s='250 000 happy customers, including:' mod='smartlook'}</strong>
                 </p>
                 <div class="customers">
                         <a>

@@ -10,7 +10,7 @@
  * Plugin Name:       Smartlook
  * Plugin URI:        http://www.getsmartlook.com
  * Description:       Adds Smartlook code to PrestaShop.
- * Version:           1.0.0
+ * Version:           2.1.0
  * Author:            Smartsupp
  * Author URI:        http://www.smartsupp.com
  * Text Domain:       smartlook
@@ -55,10 +55,6 @@ div.smartlook_landing_page {
 
 #smartlook_landing_page {
     display: none;
-}
-
-#smartlook_landing_page .intro {
-    background: url("../img/guy.png") no-repeat scroll right bottom / 30% auto;
 }
 
 #smartlook_landing_page .advantages p.heading {
